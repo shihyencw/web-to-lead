@@ -115,9 +115,9 @@ Web-to-lead欄位的Parameter，可使用的參數，請參考 Fields[input=user
 
 ```javascript=
 $('#submit').click(function(){
-    wtl.setVariable("phone", "0980000147");
+    wtl.setVariable("phone", "0912345678");
     wtl.setVariable("industry", "從事行業");
-    wtl.setVariable("workPlace", "天下大學");
+    wtl.setVariable("workPlace", "社區大學總務處");
     wtl.setVariable("account", "shihyen@cw.com.tw");
     wtl.submit();
 });
@@ -154,10 +154,10 @@ const config = {
     "subBU": "電商",
     "source": "廣告活動",
     "customer": "林務局",
-    "campaignName": "IT世彥測試",
+    "campaignName": "IT測試",
     "campaignType": "藝術人文",
     "campaignDate": "2021/1/1",
-    "retURL": "https://www.cw.com.tw/",
+    "retURL": "https://www.google.com.tw/",
     "mkt": "待確認",
     "agreementVer": "無",
     "note": getUrlParameter('note') ? getUrlParameter('note') : null,
@@ -176,8 +176,8 @@ window.onload = function(){
 
     $('#submit').click(function(){
     
-        wtl.setVariable("title", "職稱");
-        wtl.setVariable("campaignZone", "活動區域");
+        wtl.setVariable("workPlace", "社區大學總務處");
+        wtl.setVariable("title", "會計");
         wtl.setVariable("account", "shihyen@cw.com.tw");
 
         wtl.submit();

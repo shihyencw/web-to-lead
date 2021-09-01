@@ -24,13 +24,12 @@
 
             const config = {
                 "debug": "1",
-                "bu": "Cheers",
+                "bu": "天下",
                 "subBU": "電商",
                 "source": "廣告活動",
                 "customer": "林務局",
                 "campaignName": "IT世彥測試",
                 "campaignType": "藝術人文",
-                "campaignDate": "2021/1/1",
                 "retURL": "https://www.cw.com.tw/",
                 "mkt": "待確認",
                 "agreementVer": "無",
@@ -46,20 +45,21 @@
                 wtl.bindDOM('user_email','email');
 
                 $('#submit').click(function(){
-                    wtl.setVariable("phone", "0980000147");
+                    wtl.setVariable("phone", "0912345678");
                     wtl.setVariable("industry", "從事行業");
-                    wtl.setVariable("workPlace", "天下大學");
+                    wtl.setVariable("workPlace", "台灣大學");
                     wtl.setVariable("company", "富邦銀行");
                     wtl.setVariable("title", "職稱");
                     wtl.setVariable("campaignZone", "活動區域");
+                    wtl.setVariable("campaignDate", "2022/1/1");
                     wtl.setVariable("account", "shihyen@cw.com.tw");
-            
+
                     wtl.submit();
                 });
 
                 $('body').on('change', '#policy', function () {
                     if ($('#policy').is(':checked')) {
-                        wtl.setVariable("agreementVer", "A版");
+                        wtl.setVariable("agreementVer", "A版");
                         wtl.setVariable("mkt", "同意");
                     } else {
                         wtl.setVariable("agreementVer", "無");
