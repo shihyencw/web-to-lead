@@ -64,7 +64,7 @@ web to lead Class 功能說明
 
 綁定DOM
 
-```javascript=
+```javascript
 const config = {}
 var wtl = new WebToLead(config);
 wtl.bindValues('id1','id2');
@@ -86,7 +86,7 @@ Web-to-lead欄位的DOM id，參考 Fields 說明
 
 設定參數。
 
-```javascript=
+```javascript
 const config = {}
 var wtl = new WebToLead(config);
 wtl.setVariable("Parameter", "Value");
@@ -113,7 +113,7 @@ Web-to-lead欄位的Parameter，可使用的參數，請參考 Fields[input=user
 </button>
 ```
 
-```javascript=
+```javascript
 $('#submit').click(function(){
     wtl.setVariable("phone", "0912345678");
     wtl.setVariable("industry", "從事行業");
@@ -147,7 +147,7 @@ $('#submit').click(function(){
 3. body建立<script></script>區塊，內容範例：
 
 - 建立活動設定檔
-```javascript=
+```javascript
 const config = {
     "debug": "1",
     "bu": "Cheers",
@@ -165,7 +165,7 @@ const config = {
 ```
 
 - 設定WTL表單參考
-```javascript=
+```javascript
 window.onload = function(){
     var wtl = new WebToLead(config);
     wtl.setVariable("pr", "0");
@@ -184,7 +184,7 @@ window.onload = function(){
     });
     $('body').on('change', '#policy', function () {
         if ($('#policy').is(':checked')) {
-            wtl.setVariable("agreementVer", "A版");
+            wtl.setVariable("agreementVer", "A版");
             wtl.setVariable("mkt", "同意");
         } else {
             wtl.setVariable("agreementVer", "無");
