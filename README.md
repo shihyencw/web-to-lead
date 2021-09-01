@@ -55,6 +55,11 @@ Input參數說明：
 
 web to lead Class 功能說明
 
+- [bindDOM()](#binddomid1-id2)
+- [setVaraible()](#setvariableparameter-value)
+- [submit()](#submit)
+
+
 ### bindDOM(id1, id2)
 
 綁定DOM
@@ -75,6 +80,7 @@ wtl.bindValues('user_name','last_name');
 ##### - id2
 Web-to-lead欄位的DOM id，參考 Fields 說明
 
+<hr>
 
 ### setVariable(Parameter, Value)
 
@@ -96,6 +102,7 @@ Web-to-lead欄位的Parameter，可使用的參數，請參考 Fields[input=user
 ##### - Value
 線上蒐集到的使用者資訊
 
+<hr>
 
 ### submit()
 
