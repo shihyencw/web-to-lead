@@ -150,11 +150,11 @@ $('#submit').click(function(){
 ```javascript
 const config = {
     "debug": "1",
-    "bu": "Cheers",
+    "bu": "天下",
     "subBU": "電商",
     "source": "廣告活動",
     "customer": "林務局",
-    "campaignName": "IT測試",
+    "campaignName": "測試活動",
     "campaignType": "藝術人文",
     "campaignDate": "2021/1/1",
     "retURL": "https://www.google.com.tw/",
