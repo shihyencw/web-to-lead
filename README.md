@@ -29,7 +29,7 @@ Input參數說明：
 |活動日期|campaignDate|00N2w00000Hh3MM||user|
 |活動區域|campaignZone|00N2w00000Hh3MR||user|
 |從事行業|industry|00N2w00000Hh3BS||user|
-|任職單位名稱|workPlace|00N2w00000Hh3Ls||user|
+|任職單位名稱|division__c|00N2w00000Hh3Ls||user|
 |會員帳號|account|00N2w00000Hka6z| |user|
 |訂單資訊|orderInfo|00N2w00000DOPqA| |user|
 |名單取得日|-|00N2w00000Hh3C1|v|default|
